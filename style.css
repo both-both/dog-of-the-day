@@ -2,12 +2,6 @@ body {
   background-color: bisque;
 }
 
-.app {
-  display: flex;
-  margin: auto;
-  justify-content: center;
-}
-
 header {
   display: flex;
   flex-direction: row;
@@ -23,5 +17,16 @@ header img {
 .dog {
   display: block;
   margin: 0 auto;
-  width: 50vw;
+  width: 100%;
+  max-width: 50vw;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+p {
+  margin: auto;
+  background-color: black;
+  color: aliceblue;
+  width: fit-content;
+  text-align: center;
 }
