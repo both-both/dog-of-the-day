@@ -1,0 +1,27 @@
+body {
+  background-color: bisque;
+}
+
+.app {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  margin: 60px auto 20px;
+  max-width: 50vw;
+  justify-content: center;
+  gap: 60px;
+}
+header img {
+  width: 80px;
+}
+
+.dog {
+  display: block;
+  margin: 0 auto;
+  width: 50vw;
+}
