@@ -8,19 +8,25 @@ header {
   margin: 60px auto 20px;
   max-width: 50vw;
   justify-content: center;
-  gap: 60px;
+  gap: 20px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  align-items: baseline;
+
+  color: #2b2929;
 }
 header img {
-  width: 80px;
+  width: 60px;
 }
 
 .dog {
   display: block;
   margin: 0 auto;
   width: 100%;
-  max-width: 50vw;
+  max-width: 80vw;
   aspect-ratio: 1/1;
   object-fit: cover;
+  border-radius: 20px;
 }
 
 p {

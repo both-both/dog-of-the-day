@@ -4,7 +4,7 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "./assets/icon512_maskable.png",
+      "src": "./assets/dog-api-logo.svg",
       "sizes": "512x512",
       "type": "image/png"
     }
